@@ -1,0 +1,51 @@
+*{
+    margin: 0;  
+    padding: 0;
+    box-sizing: border-box;
+}
+.con{
+    width: 100%;
+    height: 500px;
+}
+.one{
+    width: 50%;
+    height: 400px;
+    background-color: rgb(165, 43, 43);
+    float: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: 2px solid black;    
+}
+.two{
+    width: 50%;
+    height: 400px;
+    font-size: 40px;
+    background-color: rgb(26, 133, 67);
+    float: right;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+button{
+    padding: 20px;
+    font-size: larger;
+}
+
+@media (max-width: 480px) {
+    .one{
+        clear: both; 
+        width: 100%;
+        height: 50vh;
+    }
+    .two{
+        clear: both;
+        width: 100%;
+        height: 50vh;
+    }
+    .con{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100vh;
+    }
+}
