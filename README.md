@@ -1,4 +1,4 @@
-# TASK-CLICKER
+# 🎯 TASK-CLICKER
 
 This is a simple Clicker project built using **HTML**, **CSS**, and **JavaScript**.
 
@@ -7,9 +7,9 @@ In this project, there are **10 buttons**, each labeled with a number from 1 to 
 ---
 
 ### 🔧 Technologies Used:
-- HTML
-- CSS
-- JavaScript
+- 🧱 **HTML**
+- 🎨 **CSS**
+- 🧠 **JavaScript**
 
 ---
 
@@ -24,4 +24,14 @@ This is a safe, personal project. It does not collect any data, store any inform
 ---
 
 ### 🔗 Live Preview
-[View Live Project](https://03abdul.github.io/CLICKER-APP/)
+[🚀 View Live Project](https://03abdul.github.io/CLICKER-APP/)
+
+---
+
+### 📦 Clone the Project
+
+To run this project locally, you can clone the repository:
+
+```bash
+git clone https://github.com/03abdul/CLICKER-APP.git
+
